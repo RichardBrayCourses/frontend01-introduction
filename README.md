@@ -1,4 +1,4 @@
-# Aws Full-Stack Cloud Development
+# Frontend Web Development for Beginners - Step by Step
 
 # Initial Setup
 
@@ -8,10 +8,6 @@ To get started you will need the following software installed:
 - Node.js
 - git (including the git credential manager)
 - Visual Studio Code
-- AWS CLI
-- AWS CDK
-
-Later on in the course we will install other software, e.g. PostgreSQL client tools and Redgate Flyway for database versioning ... but for now this is all you need to get started with the first few sections.
 
 ## Mac Setup
 
@@ -31,13 +27,11 @@ Then use homebrew to install whichever packages you don't already have. Here are
   brew install git
   brew install --cask git-credential-manager
   brew install --cask visual-studio-code
-  brew install awscli
 ```
 
 then in a new terminal (to get the correct PATH)
 
 ```
-  npm install -g aws-cdk
   git-credential-manager configure
   git config --global user.name "Your Name"
   git config --global user.email "you@example.com"
@@ -60,7 +54,31 @@ Open a new powershell terminal in admin mode and use winget to install whichever
 then in a new terminal (to get the correct PATH)
 
 ```
-  npm install -g aws-cdk
   git config --global user.name "Your Name"
   git config --global user.email "you@example.com"
 ```
+
+# Clone this repo
+
+- Open the course repo in GitHub
+- Click on the green "Code" button
+- copy the HHTPS address of the repo
+- Open Visual Studio Code
+- Select View->Command Palette
+- Choose git clone
+- enter the HHTPS address you copied above
+- select a folder where the repo is to be cloned on your hard drive
+
+# Build the Final Application
+
+- Open the repo folder in Visual Studio Code
+- Open a terminal window
+
+Enter these commands
+
+```
+npm install
+npm run dev
+```
+
+- Open the vite link in a browers (should be something like http://localhost:5173)
