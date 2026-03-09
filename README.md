@@ -1,6 +1,6 @@
 # Frontend Web Development for Beginners - Step by Step
 
-# Initial Setup
+# Initial Mac Setup
 
 To get started you will need the following software installed:
 
@@ -8,8 +8,6 @@ To get started you will need the following software installed:
 - Node.js
 - git (including the git credential manager)
 - Visual Studio Code
-
-## Mac Setup
 
 Firstly go to
 
@@ -37,7 +35,14 @@ then in a new terminal (to get the correct PATH)
   git config --global user.email "you@example.com"
 ```
 
-## Windows setup
+# Initial Windows Setup
+
+To get started you will need the following software installed:
+
+- Google Chrome
+- Node.js
+- git (including the git credential manager)
+- Visual Studio Code
 
 Open a new powershell terminal in admin mode and use winget to install whichever packages you don't already have. Here are the commands.
 
@@ -60,7 +65,7 @@ then in a new terminal (to get the correct PATH)
 
 # Clone this repo
 
-- Open the course repo in GitHub
+- Open the course repo on the GitHub website
 - Click on the green "Code" button
 - copy the HHTPS address of the repo
 - Open Visual Studio Code
