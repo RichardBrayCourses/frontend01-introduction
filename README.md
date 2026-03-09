@@ -35,6 +35,8 @@ then in a new terminal (to get the correct PATH)
   git config --global user.email "you@example.com"
 ```
 
+# Frontend Web Development for Beginners - Step by Step
+
 # Initial Windows Setup
 
 To get started you will need the following software installed:
