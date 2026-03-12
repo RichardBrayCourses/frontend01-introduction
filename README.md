@@ -45,7 +45,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
 
 Then use homebrew to install whichever packages you don't already have. Here are the commands.
 
-````
+```
 
 brew install --cask google-chrome
 brew install node
@@ -54,8 +54,6 @@ brew install --cask git-credential-manager
 brew install --cask visual-studio-code
 
 ```
-
-
 
 then in a new terminal (to get the correct PATH)
 
@@ -126,5 +124,7 @@ npm run dev
 ```
 
 - Open the vite link in a browers (should be something like http://localhost:5173)
+
 ```
-````
+
+```
