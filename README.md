@@ -76,17 +76,13 @@ To get started you will need the following software installed:
 - git (including the git credential manager)
 - Visual Studio Code
 
-Open a new powershell terminal in admin mode and use winget to install whichever packages you don't already have. Here are the commands.
+Open a new powershell terminal and use winget to install whichever packages you don't already have. Here are the commands.
 
 ```
-
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-winget install Google.Chrome
-winget install OpenJS.NodeJS
-winget install Git.Git
-winget install Microsoft.VisualStudioCode
-winget install Amazon.AWSCLI
-
+winget install --id Google.Chrome -e
+winget install --id OpenJS.NodeJS -e
+winget install --id Git.Git -e
+winget install --id Microsoft.VisualStudioCode -e
 ```
 
 then in a new terminal (to get the correct PATH)
